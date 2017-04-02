@@ -4,7 +4,7 @@
 #
 Name     : R-tseries
 Version  : 0.10.38
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/tseries_0.10-38.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/tseries_0.10-38.tar.gz
 Summary  : Time Series Analysis and Computational Finance
