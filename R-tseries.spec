@@ -4,7 +4,7 @@
 #
 Name     : R-tseries
 Version  : 0.10.40
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/tseries_0.10-40.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/tseries_0.10-40.tar.gz
 Summary  : Time Series Analysis and Computational Finance
@@ -40,11 +40,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1492609035
+export SOURCE_DATE_EPOCH=1492799075
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1492609035
+export SOURCE_DATE_EPOCH=1492799075
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -72,6 +72,7 @@ R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/lib
 /usr/lib64/R/library/tseries/INDEX
 /usr/lib64/R/library/tseries/Meta/Rd.rds
 /usr/lib64/R/library/tseries/Meta/data.rds
+/usr/lib64/R/library/tseries/Meta/features.rds
 /usr/lib64/R/library/tseries/Meta/hsearch.rds
 /usr/lib64/R/library/tseries/Meta/links.rds
 /usr/lib64/R/library/tseries/Meta/nsInfo.rds
