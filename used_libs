@@ -4,3 +4,4 @@ libc.so.6
 libgfortran.so.4
 libm.so.6
 libopenblas.so.0
+libquadmath.so.0
