@@ -1,4 +1,6 @@
 # This file contains recursive sources that require this package
+R-PerformanceAnalytics
 R-conting
+R-expsmooth
 R-forecast
 R-strucchange
