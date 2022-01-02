@@ -4,7 +4,7 @@
 #
 Name     : R-tseries
 Version  : 0.10.49
-Release  : 62
+Release  : 63
 URL      : https://cran.r-project.org/src/contrib/tseries_0.10-49.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/tseries_0.10-49.tar.gz
 Summary  : Time Series Analysis and Computational Finance
@@ -43,10 +43,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637079064
+export SOURCE_DATE_EPOCH=1641141423
 
 %install
-export SOURCE_DATE_EPOCH=1637079064
+export SOURCE_DATE_EPOCH=1641141423
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
