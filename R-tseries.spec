@@ -4,7 +4,7 @@
 #
 Name     : R-tseries
 Version  : 0.10.52
-Release  : 70
+Release  : 71
 URL      : https://cran.r-project.org/src/contrib/tseries_0.10-52.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/tseries_0.10-52.tar.gz
 Summary  : Time Series Analysis and Computational Finance
