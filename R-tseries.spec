@@ -4,7 +4,7 @@
 #
 Name     : R-tseries
 Version  : 0.10.53
-Release  : 72
+Release  : 73
 URL      : https://cran.r-project.org/src/contrib/tseries_0.10-53.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/tseries_0.10-53.tar.gz
 Summary  : Time Series Analysis and Computational Finance
@@ -18,9 +18,6 @@ BuildRequires : R-quadprog
 BuildRequires : R-quantmod
 BuildRequires : R-zoo
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 Package for time series analysis and computational finance
@@ -46,10 +43,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1675185504
+export SOURCE_DATE_EPOCH=1678827434
 
 %install
-export SOURCE_DATE_EPOCH=1675185504
+export SOURCE_DATE_EPOCH=1678827434
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
